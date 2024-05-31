@@ -36,7 +36,6 @@ class Api_model extends CI_Model
                     'product_id' => $postdata['product_id'],
                     'user_id' => $postdata['user_id'],
                     'added_date' => date('Y-m-d H:i:s'),
-                    'added_date' => date('Y-m-d H:i:s'),
                     'updated_date' => date('Y-m-d H:i:s')
                 );
         
@@ -74,6 +73,4 @@ class Api_model extends CI_Model
 
 
 	
-}
-
-?> 	 	 	  	
+}	 	  	
